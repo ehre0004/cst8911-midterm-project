@@ -23,11 +23,11 @@ TODO
 
 ## References
 
-TODO
+![Diagram](./diagram-related.png)
 
-# Azure Scenario #2: End-to-End Workflow Tutorial
+## Azure Scenario #2: End-to-End Workflow Tutorial
 
-## Group of 6 Individuals
+### Group of 6 Individuals
 
 This tutorial outlines the workflow and services used to complete Scenario #2 using **Azure Blob Storage**, **Azure Synapse Analytics**, **PolyBase**, and **Power BI**. Each step is divided among six participants.
 
@@ -58,7 +58,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 
 ---
 
-## Step 2: Creating a Data Warehouse in Azure Synapse Analytics
+### Step 2: Creating a Data Warehouse in Azure Synapse Analytics
 *Assigned to Person 2*
 
 1. **Create an Azure Synapse Workspace**:
@@ -73,7 +73,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 
 ---
 
-## Step 3: Loading Data from Blob Storage into Azure Synapse Using PolyBase
+### Step 3: Loading Data from Blob Storage into Azure Synapse Using PolyBase
 *Assigned to Person 3*
 
 1. **Configure Linked Service**:
@@ -90,7 +90,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 
 ---
 
-## Step 4: Data Transformation with T-SQL Scripts
+### Step 4: Data Transformation with T-SQL Scripts
 *Assigned to Person 4*
 
 1. **Write T-SQL Scripts**:
@@ -102,7 +102,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 
 ---
 
-## Step 5: Creating a Power BI Report
+### Step 5: Creating a Power BI Report
 *Assigned to Person 5*
 
 1. **Connect Power BI to Azure Synapse Analytics**:
@@ -119,7 +119,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 
 ---
 
-## Step 6: Security and Optimization
+### Step 6: Security and Optimization
 *Assigned to Person 6*
 
 1. **Secure Blob Storage**:
@@ -135,7 +135,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 
 ---
 
-## Final Deliverables
+### Final Deliverables
 
 1. **GitHub Repository**:
    - All code, datasets, and configurations must be pushed to the team's GitHub repository.
@@ -150,11 +150,17 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 
 ---
 
-### Evaluation Criteria:
+#### Evaluation Criteria:
 - Configuration of Azure services (Blob Storage, Synapse, PolyBase): 20 marks
 - Data transformation and optimization: 10 marks
 - Power BI visualization and presentation: 10 marks
 - Security and resource management: 10 marks
 
 ---
+
+## Links
+
+TODO
+
+## References
 
