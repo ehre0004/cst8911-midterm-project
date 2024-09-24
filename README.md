@@ -144,6 +144,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 2. **Screenshots and Documentation**:
    - Capture screenshots of the process (storage setup, data loading, transformation, Power BI reports).
    - Upload the screenshots and explanations to **Brightspace** as per the course requirements.
+   - Discussion Results: Microsoft Word or PDF
 
 3. **Delete Resources**:
    - After the final demonstration, ensure all resources (Blob Storage, SQL Pools, Synapse workspace, etc.) are deleted to avoid unnecessary costs.
@@ -167,3 +168,6 @@ TODO
 
 
 ## Dataset Were Working with for SQL
+
+![diagram](./diagram-related.png)
+(from the cst8913 lecture week3)
