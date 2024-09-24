@@ -167,11 +167,15 @@ TODO
 
 ## References
 
-
+## Preparation Steps to do:
+Step 3, Step 4 Step 5
+- Research Polybase and warehouse
+- prepare T-SQL Scripts
+- Research PowerBI
 
 ## Dataset Were Working with for SQL
 TODO
-Video Game Theme:
+Video Game Theme: usin Steam
 
 
 
