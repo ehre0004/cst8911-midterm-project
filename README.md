@@ -167,6 +167,8 @@ TODO
 
 ## References
 
++ [Video Game Sales Dataset](https://www.kaggle.com/datasets/badriabouchelaghem/video-game-sales-dataset)
++ [Steam Games, Reviews, and Rankings.](https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings)
 
 
 ## Dataset Were Working with for SQL
