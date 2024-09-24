@@ -163,3 +163,5 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 TODO
 
 ## References
+
+![diagram](./diagram-related.png)
