@@ -17,14 +17,6 @@ Group members:
 
 > Each group member will also complete a confidential Self and Peer Evaluation. The Peer Evaluation is submitted online see assignments section on the day the midterm is submitted.
 
-## Links
-
-TODO
-
-## References
-
-![Diagram](./diagram-related.png)
-
 ## Azure Scenario #2: End-to-End Workflow Tutorial
 
 ### Group of 6 Individuals
@@ -163,4 +155,3 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 TODO
 
 ## References
-
