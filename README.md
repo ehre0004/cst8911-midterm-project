@@ -170,6 +170,8 @@ TODO
 + [Video Game Sales Dataset](https://www.kaggle.com/datasets/badriabouchelaghem/video-game-sales-dataset)
 + [Steam Games, Reviews, and Rankings.](https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings)
 + [PlayStation Games Info](https://www.kaggle.com/datasets/evgeny1928/playstation-games-info)
++ [Steam API](https://steamapi.xpaw.me/)
++ [SteamDB](https://steamdb.info/)
 
 ## Dataset Were Working with for SQL
 TODO
