@@ -27,6 +27,15 @@ Provide concise, short explanations on why certain settings were chosen, ie cost
 
 One individual must submit the final report for the group under the assignments section in Midterm Project category, please include group members full names
 
+## Preparation Steps to do:
+
+Step 3, Step 4 Step 5
+
+- Prepare Steam API for Fetching
+- Research Polybase and warehouse
+- prepare T-SQL Scripts
+- Research PowerBI
+
 ## Azure Scenario #2: End-to-End Workflow Tutorial
 
 ### Group of 6 Individuals
