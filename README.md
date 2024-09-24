@@ -165,10 +165,15 @@ TODO
 
 ## References
 
-
+## Preperation For Azure Steps:
+Step 5, Step 4, Step 3:
+- Research Polybase and Warehouse
+- Write simple T-SQL Scripts for testing
+- Research PowerBI
 
 ## Dataset Were Working with for SQL
 TODO
+Video Game Theme:
 
 
 
