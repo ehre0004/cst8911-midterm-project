@@ -16,3 +16,12 @@ In azure, students must utilize a set of source data (e.g., customer data, trans
 ## Required Documents
 
 Each group member will also complete a confidential Self and Peer Evaluation. The Peer Evaluation is submitted online see assignments section on the day the midterm is submitted.
+
+
+## Final report
+
+Include screenshots of every step and settings, please include the Microsoft Azure banner in the screenshots
+
+Provide concise, short explanations on why certain settings were chosen, ie cost, compute power, etc
+
+One individual must submit the final report for the group under the assignments section in Midterm Project category, please include group members full names
