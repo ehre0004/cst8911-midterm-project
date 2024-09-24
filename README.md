@@ -167,16 +167,12 @@ TODO
 
 ## References
 
-## Preparation Steps to do:
-Step 3, Step 4 Step 5
-- Prepare Steam API for Fetching
-- Research Polybase and warehouse
-- prepare T-SQL Scripts
-- Research PowerBI
++ [Video Game Sales Dataset](https://www.kaggle.com/datasets/badriabouchelaghem/video-game-sales-dataset)
++ [Steam Games, Reviews, and Rankings.](https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings)
++ [PlayStation Games Info](https://www.kaggle.com/datasets/evgeny1928/playstation-games-info)
 
 ## Dataset Were Working with for SQL
 TODO
-Video Game Theme: usin Steam
 
 
 
