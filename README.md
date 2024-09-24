@@ -169,6 +169,7 @@ TODO
 
 ## Preparation Steps to do:
 Step 3, Step 4 Step 5
+- Prepare Steam API for Fetching
 - Research Polybase and warehouse
 - prepare T-SQL Scripts
 - Research PowerBI
