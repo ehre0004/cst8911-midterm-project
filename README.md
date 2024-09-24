@@ -1,6 +1,8 @@
 # cst8911-midterm-project
 
 Group members:
-+ Rae Ehret
+
 + Michael Balcerzak
++ Catherine Daigle
++ Rae Ehret
 + Hanh Tran
