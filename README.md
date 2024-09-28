@@ -31,10 +31,10 @@ One individual must submit the final report for the group under the assignments 
 
 Step 3, Step 4 Step 5
 
-- Prepare Steam API for Fetching
-- Research Polybase and warehouse
-- prepare T-SQL Scripts
-- Research PowerBI
+- Prepare Steam API for Fetching - prepared.
+- Research Polybase and warehouse - Rae & Catherine
+- prepare T-SQL Scripts - Rae & Catherine
+- Research PowerBI - Micheal
 
 ## Azure Scenario #2: End-to-End Workflow Tutorial
 
