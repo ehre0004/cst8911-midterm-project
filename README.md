@@ -73,14 +73,14 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 *Assigned to Person 2*
 
 1. **Create an Azure Synapse Workspace**:
-   - In Azure Portal, search for `Synapse Analytics` and click `Create`.
+   - In Azure Portal, search for `Synapse Analytics` and click `Create`. -> `cst8911synapse`
    - Enter the required details: Workspace Name, Region (East US), and Resource Group.
    - Select `Review + Create` and wait for the workspace to be deployed.
 
 2. **Configure SQL Pool (Dedicated Pool)**:
    - Navigate to the newly created Synapse workspace.
    - Under `SQL Pools`, click `+ New` to create a SQL pool.
-   - Provide a name, set **Performance Level** to `DW100c` (for the cheapest development option), and click `Create`.
+   - Provide a name (`cst8911pool`), set **Performance Level** to `DW100c` (for the cheapest development option), and click `Create`.
 
 ---
 
