@@ -61,7 +61,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 3. **Create a Blob Container**:
    - Once the storage account is created, navigate to it.
    - Under **Data storage**, select `Containers`, and click `+ Container`.
-   - Name the container (e.g., `csvFiles`), set **Public access level** to `Private`, and click `Create`.
+   - Name the container (e.g., `csvfiles`), set **Public access level** to `Private`, and click `Create`.
 
 4. **Upload Data**:
    - Navigate to the container you created, click `Upload` and select the dataset (e.g., from GitHub, Kaggle, or a custom dataset).
