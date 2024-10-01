@@ -54,7 +54,7 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
    - In the search bar, type `Storage Accounts` and click `Create`.
    - Select your subscription and resource group.
    - Enter a unique **Storage Account Name**. -> `cst8911midtermstorage`
-   - Set **Region** to `East US` and **Performance** to `Standard`.
+   - Set **Region** to `Canada Central` and **Performance** to `Standard`.
    - Select `Locally Redundant Storage (LRS)` for replication.
    - Review and click `Create`.
 
