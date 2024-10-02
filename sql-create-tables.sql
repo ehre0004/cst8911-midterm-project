@@ -8,7 +8,7 @@ CREATE EXTERNAL TABLE dbo.games_ranking (
     CONSTRAINT PK_Person PRIMARY KEY (ID,LastName)
     )
     WITH (
-            LOCATION = '../'
-            ,DATA_SOURCE = CST8911_Storage
-            ,FILE_FORMAT = csvFormat
-            );
+        LOCATION = '../'
+        ,DATA_SOURCE = CST8911_Storage
+        ,FILE_FORMAT = csvFormat
+        );
