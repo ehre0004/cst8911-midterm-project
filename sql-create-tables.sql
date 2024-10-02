@@ -1,6 +1,6 @@
 -- Create a temp table to hold the imported data
 CREATE EXTERNAL TABLE dbo.games_ranking (
-    id INT NOT NULL IDENTITY(1,1),
+    id INT IDENTITY(1,1),
     game_name VARCHAR(255),
     genre VARCHAR(255),
     rank_type VARCHAR(255),
