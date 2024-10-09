@@ -15,6 +15,7 @@ CREATE EXTERNAL TABLE dbo.games_ranking (
 CREATE EXTERNAL TABLE dbo.steam_game_reviews (
     id INT IDENTITY(1,1),
     hours_played float,
+    helpful int,
     recommendation VARCHAR(255),
     `date` DATE,
     game_name VARCHAR(255),
