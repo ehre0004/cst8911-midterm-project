@@ -95,6 +95,10 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 2. **Create External Table Using PolyBase**:
    - Go to the `Develop` tab and create a new SQL script.
    - Define external data sources, file formats, and tables using PolyBase, linking your Blob storage to the data warehouse.
+      - sql-1-master-key.sql
+      - sql-2-external-data-source.sql
+      - sql-3-external-file-format.sql
+      - sql-4-create-tables.sql
 
 3. **Load Data into the Data Warehouse**:
    - Use PolyBase to load the data from Blob Storage into your data warehouse, ensuring that the data structure matches the defined schema.
