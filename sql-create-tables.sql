@@ -38,7 +38,7 @@ CREATE EXTERNAL TABLE dbo.games_description (
     developer VARCHAR(100),
     publisher VARCHAR(100),
     overall_player_rating VARCHAR(50),
-    number_of_reviews_from_purchased_people int,
+    number_of_reviews_from_purchased_people VARCHAR(100),
     number_of_english_reviews int,
     link VARCHAR(300),
     CONSTRAINT PK_steam_game_reviews_id PRIMARY KEY (id)
