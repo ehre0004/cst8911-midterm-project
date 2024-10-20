@@ -193,19 +193,14 @@ The Azure applicaions we are using to complete this scenario are **Azure Blob St
 
 ## Links
 
-TODO
-
-## References
+### References
 
 + [Video Game Sales Dataset](https://www.kaggle.com/datasets/badriabouchelaghem/video-game-sales-dataset)
 + **We chose:** [Steam Games, Reviews, and Rankings.](https://www.kaggle.com/datasets/mohamedtarek01234/steam-games-reviews-and-rankings)
 + [PlayStation Games Info](https://www.kaggle.com/datasets/evgeny1928/playstation-games-info)
 + [PolyBase & Azure Blob, external tables](https://learn.microsoft.com/en-us/sql/relational-databases/polybase/polybase-configure-azure-blob-storage?view=sql-server-ver16)
 
-## Dataset Were Working with for SQL
-TODO
-
-
+### Dataset Were Working with for SQL
 
 ![diagram](./diagram-related.png)
 (from the cst8913 lecture week3)
