@@ -2,12 +2,12 @@
 
 Group members:
 
-+ Michael Balcerzak
-+ Catherine Daigle
-+ David
-+ Rae Ehret
-+ Van Anh Phan
-+ Hanh Tran
++ Michael Balcerzak - 041169753
++ Catherine Daigle - 41175118
++ David - 041171487
++ Rae Ehret - 040907812
++ Van Anh Phan - 041006838
++ Hanh Tran - 041121693
 
 ## Topic: Scenario 2
 
@@ -50,8 +50,8 @@ The Azure applicaions we are using to complete this scenario are **Azure Blob St
 2. **Create a Storage Account**:
    - go to `All services` and look for `Storage account` and then select `Create` to start making the storage account.
    - fill in the details bellow
-      - **Subscription**: your own
-      - **Resource group**: any you want
+      - **Subscription**: your own subscription
+      - **Resource group**: any resource group name
       - **Storage Account Name**: `cst8911midtermstorage`
       - **Region**: `Canada Central`
       - **Storage Account Name**: `cst8911midtermstorage`
@@ -64,7 +64,7 @@ The Azure applicaions we are using to complete this scenario are **Azure Blob St
    - Ones it finishes creating, go access it.
    - Go to `Containers` in the **Data storage** section and make a new container by selecting `+ Container`.
    - Fill in the contents below:
-      - **Name**: any you want
+      - **Name**: any desired name
       - **Public access level**: `Private`
    - select `Create`
 
@@ -80,7 +80,7 @@ The Azure applicaions we are using to complete this scenario are **Azure Blob St
 1. **Create an Azure Synapse Workspace**:
    - Go to `All services` and look for `Synapse Analytics` and then select `Create` to start making the Synapse service.
    - Fill in the contents below:
-      - **Subscription**: your own
+      - **Subscription**: your own subscription
       - **Resource group**: the one you made in `Storage Account`
       - **Workspace name**: `cst8911synapse`
       - **Region**: `East US`
@@ -92,7 +92,7 @@ The Azure applicaions we are using to complete this scenario are **Azure Blob St
    - Go to the `SQL Pools` selection and add a new SQL pool by selecting `+ New`.
    - Fill in the contents below:
       - **Name**: `cst8911pool`
-      - **Performance Level**: `DW100c` (cheapest)
+      - **Performance Level**: `DW100c` (DW100c is the most cost effective option)
    - after done with the detail, select `Create`.
 
 ---
