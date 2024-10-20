@@ -31,13 +31,13 @@ Step 3, Step 4 Step 5
 - Prepare Steam API for Fetching - prepared.
 - Research Polybase and warehouse - Rae & Catherine
 - prepare T-SQL Scripts - Rae & Catherine
-- Research PowerBI - Micheal
+- Research PowerBI - Micheal & Van
 
 ## Azure Scenario #2: End-to-End Workflow Tutorial
 
 ### Group of 6 Individuals
 
-This tutorial outlines the workflow and services used to complete Scenario #2 using **Azure Blob Storage**, **Azure Synapse Analytics**, **PolyBase**, and **Power BI**. Each step is divided among six participants.
+The Azure applicaions we are using to complete this scenario are **Azure Blob Storage**, **Azure Synapse Analytics**, **PolyBase**, and **Power BI**. We divide this tutorial into 6 steps among the six participants in this group.
 
 ---
 
@@ -121,47 +121,50 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 ---
 
 ### Step 4: Data Transformation with T-SQL Scripts
-*Assigned to Person 4*
+*Assigned to Tran*
 
 1. **Write T-SQL Scripts**:
-   - Perform data transformations such as aggregating, joining, or pivoting the data based on stakeholder requirements.
+   - Write T-SQL Scripts in Synapse workspace in order to tranform, the data like aggregating, joining, or pivoting to complete the stakeholder requirements.
 
 2. **Apply Advanced Queries**:
-   - Use joins to combine datasets or pivot the data for better visualization.
-   - Test queries in the Synapse workspace before running transformations on the data.
+   - before tranforming, test the queries in Synapse workspace.
+   - Transform the data such as joins to combine datasets, pivot to improve the visualization of data, and aggreate to do calculation on the dataset.
 
 ---
 
 ### Step 5: Creating a Power BI Report
-*Assigned to Person 5*
+*Assigned to Michael and Van*
 
 1. **Connect Power BI to Azure Synapse Analytics**:
-   - Open **Power BI Desktop** and click on `Get Data`.
-   - Choose `Azure Synapse Analytics` as your data source and connect using your credentials.
+   - Download and open the Power BI Desktop applicaion on your device.
+   - After you open Power BI on your desktop, select `Get data from other sources` under `Select a data source or start with a blank report` selection.
+   - Choose `Azure Synapse Analytics SQL` in the Azure section and click `Connect`
+   - paste the server link from the Synapse application and then enter your credentials of your Azure account.
 
 2. **Query the Data**:
-   - Select the necessary tables or views from your Synapse data warehouse.
+   - Select the necessary tables from your Synapse data warehouse to load the data into Power BI desktop.
    - Load the data into Power BI.
 
 3. **Create Visualizations**:
-   - Use bar charts, pie charts, and tables to visualize insights such as total sales, customer segmentation, or other relevant metrics.
-   - Build a **Dashboard** for stakeholders to interact with.
+   - Use bar charts, pie charts, and line charts to visualize insights and analyze the date such as highest ranked game, popular genre, and the user who played the most.
+   - After making the graphs, take screenshots of them and put them in a document and put description of your analysis. 
 
 ---
 
 ### Step 6: Security and Optimization
-*Assigned to Person 6*
+*Assigned to David*
 
 1. **Secure Blob Storage**:
-   - Navigate to the storage account and configure security settings such as role-based access control (RBAC), firewalls, and private endpoints.
+   - Go to the storage account and configure security 
+   - Navigate to the storage account and configure security like role-based access control (RBAC), firewalls, and private endpoints.
 
 2. **Optimize Synapse SQL Pool**:
    - Monitor performance metrics and adjust the performance level of the SQL pool based on the workload.
    - Implement partitioning, indexing, and caching to improve query efficiency.
 
 3. **Implement Data Encryption**:
-   - Ensure that all data stored in Blob Storage and Synapse Analytics is encrypted at rest.
-   - Use Azure Key Vault to manage encryption keys securely.
+   - Make sure that all data stored in Blob Storage and Synapse Analytics is encrypted.
+   - Use Azure Key Vault to manage security of encryption keys.
 
 ---
 
