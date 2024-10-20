@@ -11,21 +11,18 @@ Group members:
 
 ## Topic: Scenario 2
 
-> In azure, students must utilize a set of source data (e.g., customer data, transaction data) curated themselves or use data off websites like Github or Kaggle, and load it into Azure Blob Storage. Create a data warehouse in Azure Synapse Analytics and use PolyBase to load data from Azure Blob Storage. Utilize T-SQL scripts to transform the data in the data warehouse (e.g., aggregating, pivoting, and joining data). Finally create a Power BI report that queries the data warehouse and presents it in a meaningful way for stakeholders. The students will be evaluated on their ability to configure, secure, and optimize the Azure blob storage, Azure Synapse Analytics, and PolyBase. Following correct security protocols and best practices. 
+> In this group we decided to do scenario 2 which we will describe below:
 
-We choose our dataset to be video-game related. Our sources will include Steam, and Kaggle.
+> First, we need to find and download a database which contains a set of data such as customer data or transaction data and load it to the Azure Blob Storage service. 
+> Second, we need to create a data warehouse in Azure Synapse Analytics and use PolyBase to load the data from Azure Blob Storage. 
+> Third, we need to create T-SQL scripts in order to transform the data in the data warehouse such as aggregating, pivoting, and joining.
+> Last, we need to create a Power BI report to use the data from Synapse to presents it as different grapths such as line and pie graphs in order to analize and describe the data to stakeholders.
+
+Therefore, we choose our dataset to be based on video-game. Our sources will be from Steam and Kaggle.
 
 ## Required Documents
 
 > Each group member will also complete a confidential Self and Peer Evaluation. The Peer Evaluation is submitted online see assignments section on the day the midterm is submitted.
-
-## Final report
-
-Include screenshots of every step and settings, please include the Microsoft Azure banner in the screenshots
-
-Provide concise, short explanations on why certain settings were chosen, ie cost, compute power, etc
-
-One individual must submit the final report for the group under the assignments section in Midterm Project category, please include group members full names
 
 ## Preparation Steps to do:
 
@@ -45,63 +42,81 @@ This tutorial outlines the workflow and services used to complete Scenario #2 us
 ---
 
 ## Step 1: Setting Up Azure Blob Storage
-*Assigned to Person 1*
+*Assigned to Catherine and Rae*
 
 1. **Log into Azure Portal**:
-   - Go to [Azure Portal](https://portal.azure.com) and sign in.
+   - go to the Azure portal website and log in to your Azure account.
 
 2. **Create a Storage Account**:
-   - In the search bar, type `Storage Accounts` and click `Create`.
-   - Select your subscription and resource group.
-   - Enter a unique **Storage Account Name**. -> `cst8911midtermstorage`
-   - Set **Region** to `Canada Central` and **Performance** to `Standard`.
-   - Select `Locally Redundant Storage (LRS)` for replication.
-   - Review and click `Create`.
+   - go to `All services` and look for `Storage account` and then select `Create` to start making the storage account.
+   - fill in the details bellow
+      - **Subscription**: your own
+      - **Resource group**: any you want
+      - **Storage Account Name**: `cst8911midtermstorage`
+      - **Region**: `Canada Central`
+      - **Storage Account Name**: `cst8911midtermstorage`
+      - **Region**: `Canada Central`
+      - **Performance**: `Standard`.
+      - **replication**: `Locally Redundant Storage (LRS)`
+   - Leave the rest as default and click `Create`.
 
 3. **Create a Blob Container**:
-   - Once the storage account is created, navigate to it.
-   - Under **Data storage**, select `Containers`, and click `+ Container`.
-   - Name the container (e.g., `csvfiles`), set **Public access level** to `Private`, and click `Create`.
+   - Ones it finishes creating, go access it.
+   - Go to `Containers` in the **Data storage** section and make a new container by selecting `+ Container`.
+   - Fill in the contents below:
+      - **Name**: any you want
+      - **Public access level**: `Private`
+   - select `Create`
 
 4. **Upload Data**:
-   - Navigate to the container you created, click `Upload` and select the dataset (e.g., from GitHub, Kaggle, or a custom dataset).
-   - Click `Upload` to store the data in Azure Blob Storage.
+   - go to the container you made and select `Upload` and then pick the dataset you want to upload from such as GitHub, Kaggle, or custom.
+   - Last select `Upload` to save the data in Azure Blob Storage.
 
 ---
 
 ### Step 2: Creating a Data Warehouse in Azure Synapse Analytics
-*Assigned to Person 2*
+*Assigned to Catherine and Rae*
 
 1. **Create an Azure Synapse Workspace**:
-   - In Azure Portal, search for `Synapse Analytics` and click `Create`. -> `cst8911synapse`
-   - Enter the required details: Workspace Name, Region (East US), and Resource Group.
-   - Select `Review + Create` and wait for the workspace to be deployed.
+   - Go to `All services` and look for `Synapse Analytics` and then select `Create` to start making the Synapse service.
+   - Fill in the contents below:
+      - **Subscription**: your own
+      - **Resource group**: the one you made in `Storage Account`
+      - **Workspace name**: `cst8911synapse`
+      - **Region**: `East US`
+   - Fill in the other requried requirement on your own.
+   - After finishing filling the details, go to `Review + create` and select `Create`
 
 2. **Configure SQL Pool (Dedicated Pool)**:
-   - Navigate to the newly created Synapse workspace.
-   - Under `SQL Pools`, click `+ New` to create a SQL pool.
-   - Provide a name (`cst8911pool`), set **Performance Level** to `DW100c` (for the cheapest development option), and click `Create`.
+   - After Synapes is created, go to its workspace.
+   - Go to the `SQL Pools` selection and add a new SQL pool by selecting `+ New`.
+   - Fill in the contents below:
+      - **Name**: `cst8911pool`
+      - **Performance Level**: `DW100c` (cheapest)
+   - after done with the detail, select `Create`.
 
 ---
 
 ### Step 3: Loading Data from Blob Storage into Azure Synapse Using PolyBase
-*Assigned to Person 3*
+*Assigned to Catherine and Rae*
 
 1. **Configure Linked Service**:
-   - In the Synapse workspace, go to `Manage` and select `Linked Services`.
-   - Click `+ New` and choose `Azure Blob Storage` as the linked service.
-   - Input the storage account name and key, then test the connection to ensure it works.
+   - go to `Manage` and then select `Linked Services` in the External connections section.
+   - to link the new Azure Blob Storage, select `+ New` and choose the `Azure Blob Storage`.
+   - After that, input the storage account name you made and its key in the details.
+   - Then test the connection to see if it works.
 
 2. **Create External Table Using PolyBase**:
-   - Go to the `Develop` tab and create a new SQL script.
-   - Define external data sources, file formats, and tables using PolyBase, linking your Blob storage to the data warehouse.
+   - Go to the `Develop` s and create 4 new SQL scripts.
+   - when making the SQL scripts, make the external data sources, file formats, and tables using PolyBase, then link the Blob storage aplication to the data warehouse.
+   - Here is the name of the 4 sql files:
       - sql-1-master-key.sql
       - sql-2-external-data-source.sql
       - sql-3-external-file-format.sql
       - sql-4-create-tables.sql
 
 3. **Load Data into the Data Warehouse**:
-   - Use PolyBase to load the data from Blob Storage into your data warehouse, ensuring that the data structure matches the defined schema.
+   - Finally, use PolyBase to load the data from the Blob Storage service to the data warehouse, showing that the data structure is the same as the schema defined.
 
 ---
 
