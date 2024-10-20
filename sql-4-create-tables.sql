@@ -5,7 +5,7 @@ CREATE EXTERNAL TABLE dbo.games_ranking (
     [rank] INT
     )
     WITH (
-        LOCATION = '../'
+        LOCATION = '/games_ranking.csv'
         ,DATA_SOURCE = CST8911_Storage
         ,FILE_FORMAT = csvFormat
         );
@@ -21,7 +21,7 @@ CREATE EXTERNAL TABLE dbo.steam_game_reviews (
     num_products_in_account VARCHAR(100)
     )
     WITH (
-        LOCATION = '../'
+        LOCATION = '/steam_game_reviews.csv'
         ,DATA_SOURCE = CST8911_Storage
         ,FILE_FORMAT = csvFormat
         );
@@ -38,7 +38,7 @@ CREATE EXTERNAL TABLE dbo.games_description (
     link VARCHAR(300)
     )
     WITH (
-        LOCATION = '../'
+        LOCATION = '/games_description.csv'
         ,DATA_SOURCE = CST8911_Storage
         ,FILE_FORMAT = csvFormat
         ); 
