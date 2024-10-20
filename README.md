@@ -171,16 +171,15 @@ The Azure applicaions we are using to complete this scenario are **Azure Blob St
 ### Final Deliverables
 
 1. **GitHub Repository**:
-   - All code, datasets, and configurations must be pushed to the team's GitHub repository.
-   - Include documentation explaining the rationale behind the setup and configuration.
+   - All code, datasets, and configurations are pushed to the group's GitHub repository.
+   - The GitHub has the documentation explaining the progress behind the setup and configuration.
 
 2. **Screenshots and Documentation**:
-   - Capture screenshots of the process (storage setup, data loading, transformation, Power BI reports).
-   - Upload the screenshots and explanations to **Brightspace** as per the course requirements.
-   - Discussion Results: Microsoft Word or PDF
+   - Take screenshots of the process which includes the storage setup, data loading, transformation, and Power BI reports
+   - Then upload the screenshots with its explanations to **Brightspace course homepage** since this is a requirement in the course.
 
 3. **Delete Resources**:
-   - After the final demonstration, ensure all resources (Blob Storage, SQL Pools, Synapse workspace, etc.) are deleted to avoid unnecessary costs.
+   - After the final demonstration, delete all resources such as Blob Storage, SQL Pools, Synapse workspace, and etc. to prevent additional cost.
 
 ---
 
