@@ -202,5 +202,5 @@ The Azure applicaions we are using to complete this scenario are **Azure Blob St
 
 ### Dataset Were Working with for SQL
 
-![diagram](./diagram-related.png)
+![diagram](./images/diagram-related.png)
 (from the cst8913 lecture week3)
